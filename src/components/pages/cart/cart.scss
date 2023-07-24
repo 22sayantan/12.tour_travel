@@ -1,0 +1,121 @@
+.cart{
+    width: 180vh;
+    margin: auto;
+    display: flex;
+
+    font-family: sans-serif;
+    
+    .left{
+        width: 70%;
+        padding-left: 1rem;
+        // border: 1px solid red;
+
+        font-family: sans-serif;
+        text-transform: capitalize;
+
+		border-right: 1px solid gray;
+		margin-right: 1rem;
+
+        .delivery{
+            width: 95%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding-left: 1rem;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            
+            box-shadow: 4px 4px 4px gray;
+
+            button{
+                height: 2.4rem;
+                width: 4.2rem;
+
+                font-size: 16px;
+                font-family: sans-serif;
+                text-transform: capitalize;
+
+                background-color: transparent;
+                border: 2px solid blue;
+                border-radius: 5px;
+
+                color: blue;
+                margin-right: 1rem;
+
+            }
+        }
+    }
+
+    .right{
+        flex: 3;
+
+        padding-left: 1rem;
+        text-transform: capitalize;
+        
+        // border: 1px solid green;
+		border-bottom: 1px solid gray;
+
+        h1{
+            width: 40%;
+            padding-bottom: 5px;
+
+            margin: 1rem auto;
+            border-bottom: 1px solid black;
+        }
+
+        table{
+            height: 10rem;
+            width: 90%;
+            margin: auto;
+
+            color: #405050;
+            margin-bottom: 1rem;
+
+
+            tr{
+                td:first-child{
+                    width: 75%;
+                }
+            }
+
+            .total{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        
+		.buttons{
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+
+			margin-bottom: 1rem;
+
+			input{
+				height: 2.4rem;
+				width: 7rem;
+				background-color: transparent;
+	
+				font-family: sans-serif;
+				font-size: 16px;
+				text-transform: capitalize;
+				
+				border-radius: 5px;
+	
+				&:first-child{
+					color: green;    
+					border: 2px solid green;
+				}
+	
+				&:last-child{
+					color: orangered;    
+					border: 2px solid orangered;
+				}
+			}
+		}
+        
+    }
+}
+

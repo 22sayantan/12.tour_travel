@@ -1,0 +1,42 @@
+.filter{
+    height: 2.4rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    font-family: sans-serif;
+    font-size: 14px;
+
+    ul{
+        width: 80%;
+        list-style: none;
+        
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0 5rem;
+
+        li{
+            text-transform: capitalize;
+            select{
+                height: 1.3rem;
+
+                outline: none;
+                border: 1px solid gray;
+                border-radius: 5px;
+                color: gray;
+
+                option{
+                    color: gray;
+                }
+            }
+        }
+    }
+}

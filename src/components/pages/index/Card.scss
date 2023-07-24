@@ -1,0 +1,41 @@
+.card{
+    height: 18rem;
+    width: 12rem;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+
+    line-height: 1px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+
+    img{
+        height: 11rem;
+        width: 9rem;
+        
+        margin: auto;
+    }
+
+    h3{
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+
+    p{
+        color: gray;
+        font-size: 13px;
+        font-weight: bold;
+
+        margin-top: 5px;
+        margin-left: 1.2rem;
+
+        span{
+            font-size: 12px;
+            font-weight: lighter;
+        }
+    }
+}

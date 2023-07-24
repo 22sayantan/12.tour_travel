@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+
+    background-color: #efefef;
+    border-bottom: 1px solid #adadad;
+
+    text-transform: capitalize;
+
+    .left{
+        flex: 2;
+        // border: 1px solid red;
+
+        padding-left: 1.2rem;
+    }
+
+    .right{
+        flex: 7;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        // border: 1px solid blue;
+        ul{
+            list-style: none;
+            margin-right: 1.2rem;
+
+            display: flex;
+            column-gap: 10px;
+
+            li{
+                
+                a{
+                    color: gray;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.active{
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+
+    font-weight: bold;
+}
